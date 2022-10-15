@@ -29,6 +29,7 @@ export interface ChatProps {
   title: string;
   size?: Size;
   status?: Status;
+  children?: React.ReactNode;
 }
 
 export interface AttachedFile extends File {

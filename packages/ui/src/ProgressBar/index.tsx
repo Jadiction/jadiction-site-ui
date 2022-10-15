@@ -10,6 +10,7 @@ interface ProgressProps {
   displayValue?: boolean;
   className?: string;
   style?: React.CSSProperties;
+  children?: React.ReactNode;
 }
 
 const ProgressStyle = styled.div<ProgressProps>`

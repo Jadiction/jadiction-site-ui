@@ -17,6 +17,7 @@ interface AlertProps {
   outline?: Status;
   closable?: boolean;
   onClose?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  children?: React.ReactNode;
 }
 
 const AlertStyle = styled.div<AlertProps>`
