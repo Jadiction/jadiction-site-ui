@@ -16,6 +16,7 @@ interface CardProps {
   size?: Size;
   style?: React.CSSProperties;
   className?: string;
+  children?: React.ReactNode;
 }
 
 const CardFooter = styled.footer``;
