@@ -27,7 +27,7 @@ const LayoutHeader: React.FC<{ fixed?: boolean; className?: string }> = (props) 
   );
 };
 
-const LayoutFooter: React.FC = (props) => {
+const LayoutFooter: React.FC<{ children?: React.ReactNode }> = (props) => {
   return (
     <FooterStyle {...props}>
       <nav>{props.children}</nav>
@@ -43,6 +43,7 @@ interface LayoutProps {
   windowMode?: boolean;
   withSubHeader?: boolean;
   evaIcons?: Icons;
+  children?: React.ReactNode;
 }
 
 const Layout: React.FC<LayoutProps> = (props) => {
