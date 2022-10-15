@@ -1,5 +1,5 @@
 {
-  "name": "@paljs/icons",
+  "name": "@jadiction/icons",
   "version": "1.0.5",
   "description": "@paljs/icons package for @paljs/ui package",
   "main": "dist/index.js",

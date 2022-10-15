@@ -1,5 +1,5 @@
 {
-  "name": "@paljs/theme",
+  "name": "@jadiction/theme",
   "version": "1.0.3",
   "main": "dist/index.js",
   "module": "dist/theme.esm.js",

@@ -1,5 +1,5 @@
 {
-  "name": "@paljs/ui",
+  "name": "@jadiction/ui",
   "version": "1.1.1",
   "description": "React Styled Components with bootstrap grid system",
   "main": "index.js",
