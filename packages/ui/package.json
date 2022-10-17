@@ -1,6 +1,6 @@
 {
   "name": "@paljs/ui",
-  "version": "1.1.1",
+  "version": "1.0.1",
   "description": "React Styled Components with bootstrap grid system",
   "main": "index.js",
   "module": "./esm/index.js",
@@ -28,7 +28,7 @@
     "styled-components": ">=5.2.1"
   },
   "dependencies": {
-    "@paljs/theme": "^1.0.3",
+    "@paljs/theme": "^1.0.1",
     "react-select": "^4.1.0"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "@babel/preset-env": "^7.12.16",
     "@babel/preset-react": "^7.12.13",
     "@babel/preset-typescript": "^7.12.16",
-    "@paljs/icons": "^1.0.5",
+    "@paljs/icons": "^1.0.1",
     "@types/node": "14.14.28",
     "@types/react": "*",
     "@types/react-dom": "17.0.1",
