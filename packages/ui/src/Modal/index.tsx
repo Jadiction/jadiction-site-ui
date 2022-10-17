@@ -5,6 +5,7 @@ import styled from 'styled-components';
 interface ModelProps {
   on?: boolean;
   toggle?: () => void;
+  children?: React.ReactNode;
 }
 
 export const Modal: React.FC<ModelProps> = (props) => {

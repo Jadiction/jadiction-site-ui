@@ -1,5 +1,5 @@
 {
-  "name": "@jadiction/ui",
+  "name": "@paljs/ui",
   "version": "1.1.1",
   "description": "React Styled Components with bootstrap grid system",
   "main": "index.js",
@@ -13,12 +13,13 @@
     "npm": ">=5"
   },
   "scripts": {
-    "build": "yarn build:cjs && yarn build:esm && yarn build:copy-files",
+    "build": "yarn tscbuild && yarn build:cjs && yarn build:esm && yarn build:copy-files",
     "build:cjs": "node ./scripts/build cjs",
     "build:esm": "node ./scripts/build esm",
     "build:es": "node ./scripts/build es",
     "build:copy-files": "node ./scripts/copyFiles",
-    "build:types": "tsc -p tsconfig.build.json",
+    "build:types": "npx tsc -p tsconfig.build.json",
+    "tscbuild": "tsc --build",
     "prepack": "yarn build"
   },
   "peerDependencies": {
@@ -28,7 +29,6 @@
   },
   "dependencies": {
     "@paljs/theme": "^1.0.3",
-    "@types/react-select": "4.0.13",
     "react-select": "^4.1.0"
   },
   "devDependencies": {

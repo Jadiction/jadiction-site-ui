@@ -1,5 +1,5 @@
 {
-  "name": "@jadiction/icons",
+  "name": "@paljs/icons",
   "version": "1.0.5",
   "description": "@paljs/icons package for @paljs/ui package",
   "main": "dist/index.js",
@@ -10,8 +10,8 @@
   "license": "MIT",
   "scripts": {
     "prepack": "yarn build",
-    "build": "tsdx build --transpileOnly",
-    "start": "tsdx watch"
+    "build": "npx tsdx build --transpileOnly",
+    "start": "npx tsdx watch"
   },
   "publishConfig": {
     "access": "public"

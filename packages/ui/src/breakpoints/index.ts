@@ -61,7 +61,7 @@ function breakpointNext(index: number): BreakPointKeys | null {
 
 function ifWidthInBreakpoint(breakpoint: Array<BreakPointKeys> = []) {
   const bp = Object.keys(breakpoints) as Array<BreakPointKeys>;
-  if (breakpoint === []) {
+  if (!breakpoint) {
     return false;
   }
   let value = false;
